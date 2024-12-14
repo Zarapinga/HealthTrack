@@ -32,9 +32,8 @@
 - **Gerenciamento de Pacotes**: NPM 9.x  
 
 ### **Backend**
-- **Linguagem**: JavaScript (Node.js)  
-- **Versão**: Node.js 18.x  
-- **Framework**: Express.js 4.x  
+- **Linguagem**: GO(Golang)  
+- **Versão**: 2.1.x    
 
 ### **Banco de Dados**
 - **Sistema Gerenciador**: MySQL  
