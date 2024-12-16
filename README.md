@@ -23,6 +23,26 @@
   - Controle total do sistema, incluindo o cadastro de médicos e secretárias.
 
 ---
+## Regras e Padrões de uso do Git
+
+
+- **Commits**
+
+- Use mensagens de commit claras e diretas, preferencialmente no gerúndio
+- Cada commit deve ser atômico, representando uma única alteração lógica.
+- Sempre vincule os commits às issues correspondentes no backlog.
+
+
+- **Branches**
+
+- Utilize branches para os códigos.
+- Crie branches dedicadas para correções críticas.
+- Nomeie as branches com letras minúsculas apenas.
+
+- **Organização**
+-Mantenha a estrutura do projeto organizada, separando claramente a documentação do código.
+
+---
 
 ## Tecnologias Utilizadas
 
