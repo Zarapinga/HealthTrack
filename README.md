@@ -40,6 +40,7 @@
 - Nomeie as branches com letras minúsculas apenas.
 
 - **Organização**
+  
 -Mantenha a estrutura do projeto organizada, separando claramente a documentação do código.
 
 ---
