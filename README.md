@@ -41,7 +41,7 @@
 
 - **Organização**
   
--Mantenha a estrutura do projeto organizada, separando claramente a documentação do código.
+- Mantenha a estrutura do projeto organizada, separando claramente a documentação do código.
 
 ---
 
