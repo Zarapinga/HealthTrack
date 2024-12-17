@@ -126,6 +126,20 @@ Refatoração:
 - **Comunicação API**: RESTful  
 - **Documentação da API**: Swagger (opcional)  
 
+## Estrutura do Projeto
+---
+```sh
+HealthTrack
+|-- Padrões Adotados/
+|   |-- Regras de Requisito/
+|-- Requisitos
+|   |-- Documento de requisitos.pdf/
+|   |-- Diagramas
+|   |   |-- DiagramaImplementação
+|   |   |-- DiagramaClasses
+|   
+|-- README.md
+```
 ---
 
 ## Instalação e Execução
