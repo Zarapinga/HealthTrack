@@ -110,7 +110,7 @@ Refatoração:
 
 ### **Backend**
 - **Linguagem**: GO(Golang)  
-- **Versão**: 2.1.x    
+- **Versão**: 1.23.x    
 
 ### **Banco de Dados**
 - **Sistema Gerenciador**: MySQL  
