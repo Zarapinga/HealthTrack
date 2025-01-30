@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lista de Medicos</title>
+</head>
+<body>
+<h1>Lista de Médicos</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Data de Nascimento</th>
+        <th>CPF</th>
+        <th>Salário</th>
+        <th>Especialidade</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{range .Medicos}}
+    <tr>
+        <td>{{.Nome}}</td>
+        <td>{{.Email}}</td>
+        <td>{{.Idade}}</td>
+        <td>{{.DataDeNascimento}}</td>
+        <td>{{.CPF}}</td>
+        <td>{{.Salario}}</td>
+        <td>{{.Especialidade}}</td>
+    </tr>
+    {{end}}
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Lista de Pacientes</title>
+</head>
+<body>
+<h1>Lista de Pacientes</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Data de Nascimento</th>
+        <th>CPF</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{range .Pacientes}}
+    <tr>
+        <td>{{.Nome}}</td>
+        <td>{{.Email}}</td>
+        <td>{{.Idade}}</td>
+        <td>{{.DataDeNascimento}}</td>
+        <td>{{.CPF}}</td>
+    </tr>
+    {{end}}
+    </tbody>
+</table>
+</body>
+</html>

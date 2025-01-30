@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <title>Cadastrar Receita</title>
+</head>
+<body>
+<h1>Cadastrar Receita</h1>
+<form method="POST" action="/cadastrar_receita">
+    <label for="nomeDoRemedio">Nome do Remédio:</label>
+    <input type="text" id="nomeDoRemedio" name="nomeDoRemedio" required><br><br>
+
+    <label for="medicoId">ID do Médico (UUID):</label>
+    <input type="text" id="medicoId" name="medicoId" pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" required><br><br>
+
+    <label for="pacienteId">ID do Paciente (UUID):</label>
+    <input type="text" id="pacienteId" name="pacienteId" pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" required><br><br>
+
+    <label for="agendamentoId">ID do Agendamento (UUID):</label>
+    <input type="text" id="agendamentoId" name="agendamentoId" pattern="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" required><br><br>
+
+    <button type="submit">Cadastrar Receita</button>
+</form>
+</body>
+</html>

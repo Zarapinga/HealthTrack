@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+<form action="/login" method="post">
+    <label for="tipo_usuario">Tipo de Usuário:</label>
+    <select name="tipo_usuario" id="tipo_usuario" required>
+        <option value="paciente">Paciente</option>
+        <option value="medico">Médico</option>
+        <option value="recepcionista">Recepcionista</option>
+        <option value="super">Superusuário</option>
+    </select>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+    <br>
+    <button type="submit">Entrar</button>
+</form>
+</body>
+</html>

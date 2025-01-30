@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lista de Recepcionistas</title>
+</head>
+<body>
+<h1>Lista de Recepcionistas</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Idade</th>
+        <th>Data de Nascimento</th>
+        <th>CPF</th>
+        <th>Salário</th>
+        <th>Turno</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{range .Recepcionistas}}
+    <tr>
+        <td>{{.Nome}}</td>
+        <td>{{.Email}}</td>
+        <td>{{.Idade}}</td>
+        <td>{{.DataDeNascimento}}</td>
+        <td>{{.CPF}}</td>
+        <td>{{.Salario}}</td>
+        <td>{{.Turno}}</td>
+    </tr>
+    {{end}}
+    </tbody>
+</table>
+</body>
+</html>
